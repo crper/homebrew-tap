@@ -6,12 +6,12 @@ cask "tqrx" do
     on_intel do
       url "https://github.com/crper/tqrx/releases/download/v#{version}/tqrx_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/crper/tqrx/"
-      sha256 "ab530fe14e40e1cdfde849207b666b0f9d121b3c8d88ab9d8d18d37e7b5a3728"
+      sha256 "12ddad55e0c5c1a85226b63256ad8e05324faa6e42acf03a014e51850ddb13b6"
     end
     on_arm do
       url "https://github.com/crper/tqrx/releases/download/v#{version}/tqrx_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/crper/tqrx/"
-      sha256 "2162659b724fb3c9b5b231bdd272dfb9a2f81e35b440f0b1523ec1fe2ddbb1e9"
+      sha256 "939bc8f2e3dcd28495a0a4caff3366e97318ab883fba929ce499a1739fbeb3d1"
     end
   end
 
@@ -19,12 +19,12 @@ cask "tqrx" do
     on_intel do
       url "https://github.com/crper/tqrx/releases/download/v#{version}/tqrx_#{version}_linux_amd64.tar.gz",
         verified: "github.com/crper/tqrx/"
-      sha256 "9d79ef870d4a871c6a20d7687a86fbdc9615ae97e9a670379946211c4f25b0c1"
+      sha256 "36ed7305ed12d2b3c6e65dde426fd1f4253f448a38595a93d4d566217818415c"
     end
     on_arm do
       url "https://github.com/crper/tqrx/releases/download/v#{version}/tqrx_#{version}_linux_arm64.tar.gz",
         verified: "github.com/crper/tqrx/"
-      sha256 "bda7d126583cfe0d39706b1de538269e6f510f0290a941d273040aa2035a4faf"
+      sha256 "3ac64ce04c5f094b5be1b8e01b9b3b6a16e1a48c5450f79e930863ca7d22af86"
     end
   end
 
